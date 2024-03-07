@@ -1,0 +1,39 @@
+﻿@model AgendamentoDeTarefas.Models.Entites.Tarefa
+
+@{
+    ViewData["Title"] = "Detalhes da tarefa";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.Titulo)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.Titulo)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.Descricao)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.Descricao)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.Data)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.Data)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.Status)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.Status)
+        </dt>
+    </dl>
+</div>
+<a asp-action="EditarTarefa" asp-route-id="@Model.Id">Editar</a> |
+<a asp-action="ObterTodos">Voltar</a> |
+<a asp-action="Deletar" asp-route-id="@Model.Id" class="btn-outline-danger">Deletar</a>

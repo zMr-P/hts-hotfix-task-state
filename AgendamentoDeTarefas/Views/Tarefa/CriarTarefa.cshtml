@@ -1,0 +1,49 @@
+﻿@model AgendamentoDeTarefas.Models.Entites.Tarefa
+@{
+    ViewData["Title"] = "Criar Tarefa";
+}
+<h1>Criar nova tarefa</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CriarTarefa">
+            <div class="form-group" ´>
+                <label asp-for="Titulo" class="control-label">Titulo da tarefa</label>
+                <input asp-for="Titulo" class="form-control" />
+            </div>
+            <div class="form-group" ´>
+                <label asp-for="Descricao" class="control-label">Descrição</label>
+                <input asp-for="Descricao" class="form-control" />
+            </div>
+            <div class="form-group" ´>
+                <label asp-for="Data" class="control-label">Data</label>
+                <input asp-for="Data" class="form-control" />
+            </div>
+            <br />
+            <fieldset class="form-group">
+                <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Status</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <label asp-for="Status" class="form-check-label" for="gridRadios1">Pendente</label>
+                            <input asp-for="Status" class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Pendente">
+                        </div>
+                        <div class="form-check">
+                            <label asp-for="Status" class="form-check-label" for="gridRadios2">Finalizado</label>
+                            <input asp-for="Status" class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Finalizado">
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Criar Tarefa" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<hr />
+<div>
+    <a asp-action="ObterTodos">Voltar</a>
+</div>
