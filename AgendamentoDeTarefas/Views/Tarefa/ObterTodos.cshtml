@@ -1,16 +1,13 @@
 ﻿@model IEnumerable<AgendamentoDeTarefas.Models.Entites.Tarefa>
-
 @{
     ViewData["Title"] = "Todas as tarefas";
-
+    
 }
 <h2>Minhas Tarefas</h2>
 
-<div>
-    <p>
-        <a asp-action="CriarTarefa">Criar nova Tarefa</a>
-    </p>
-</div>
+<p>
+    <a asp-action="CriarTarefa">Criar nova Tarefa</a>
+</p>
 
 <table class="table">
     <thead>
@@ -49,7 +46,7 @@
                 <td>
                     <a asp-action="EditarTarefa" asp-route-id="@item.Id">Editar</a>
                     <a asp-action="Detalhes" asp-route-id="@item.Id">Detalhes</a>
-                    <a asp-action="Deletar" asp-route-id="@item.Id">Deletar</a>
+                    <a asp-action="Deletar" asp-route-id="@item.Id" class="btn-outline-danger">Deletar</a>
                 </td>
             </tr>
         }

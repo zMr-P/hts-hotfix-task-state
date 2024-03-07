@@ -1,50 +1,49 @@
 html {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
+  html {
+    font-size: 16px;
+  }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
-
-.PrincipalBackGround {
-    left: px;
+.PrincipalBackGround {    
+    left:px;
     display: flex;
     hight: 70vh;
     width: 70vw;
     z-index: 0;
-    align-items: center;
+   
+    align-items:center;
+  
 }
-
-.Titulo-Principal {
-    align-items: end;
-    position: absolute;
+.Titulo-Principal{
+    align-items:end;
+    position:absolute;
+    
     top: 90px;
     z-index: 1;
 }
-
-.BotaoObterTodos {
-    display: flex;
-    position: absolute;
-    bottom: 600px;
+.BotaoObterTodos{
+    display:flex;
+    position:absolute;
+    bottom:600px;
 }
-
 .BotaoCriar {
-    display: flex;
-    position: absolute;
-    bottom: 550px;
+    display:flex;
+    position:absolute;
+    bottom:550px;
 }

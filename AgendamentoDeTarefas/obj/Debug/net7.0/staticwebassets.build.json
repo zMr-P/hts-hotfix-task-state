@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tZeqYlP54sswDcUfH0WhzsGXhAt2KvIirVxfcTlEHYQ=",
+  "Hash": "q3kJzMiKcfbBLPireBG3nQxoDRcMW9Tr7J85D0EPzOk=",
   "Source": "AgendamentoDeTarefas",
   "BasePath": "_content/AgendamentoDeTarefas",
   "Mode": "Default",
@@ -74,12 +74,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\wwwroot\\hTs.ico",
       "SourceId": "AgendamentoDeTarefas",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\wwwroot\\",
       "BasePath": "_content/AgendamentoDeTarefas",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "hTs.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,7 +90,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\hTs.ico"
     },
     {
       "Identity": "C:\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\wwwroot\\imagens\\PrincipalBackGround.jpg",
