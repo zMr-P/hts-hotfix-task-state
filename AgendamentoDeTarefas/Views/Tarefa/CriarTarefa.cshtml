@@ -21,21 +21,14 @@
                 <input asp-for="Data" class="form-control" />
             </div>
             <br />
-            <fieldset class="form-group">
-                <div class="row">
-                    <legend class="col-form-label col-sm-2 pt-0">Status</legend>
-                    <div class="col-sm-10">
-                        <div class="form-check">
-                            <label asp-for="Status" class="form-check-label" for="gridRadios1">Pendente</label>
-                            <input asp-for="Status" class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Pendente">
-                        </div>
-                        <div class="form-check">
-                            <label asp-for="Status" class="form-check-label" for="gridRadios2">Finalizado</label>
-                            <input asp-for="Status" class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Finalizado">
-                        </div>
-                    </div>
-                </div>
-            </fieldset>
+            <div>
+                <label asp-for="Status" class="my-1 mr-2" for="inlineFormCustomSelectPref">Status</label>
+                <select asp-for="Status" class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                    <option selected>Escolha</option>
+                    <option value="0">Pendente</option>
+                    <option value="1">Finalizado</option>
+                </select>
+            </div>
             <br />
             <div class="form-group">
                 <input type="submit" value="Criar Tarefa" class="btn btn-primary" />

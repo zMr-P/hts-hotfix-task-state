@@ -1,13 +1,16 @@
 ﻿@model IEnumerable<AgendamentoDeTarefas.Models.Entites.Tarefa>
+
 @{
     ViewData["Title"] = "Todas as tarefas";
-    
+
 }
 <h2>Minhas Tarefas</h2>
 
-<p>
-    <a asp-action="CriarTarefa">Criar nova Tarefa</a>
-</p>
+<div>
+    <p>
+        <a asp-action="CriarTarefa">Criar nova Tarefa</a>
+    </p>
+</div>
 
 <table class="table">
     <thead>
