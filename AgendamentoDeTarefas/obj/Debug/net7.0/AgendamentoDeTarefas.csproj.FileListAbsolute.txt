@@ -73,3 +73,4 @@ C:\Aulas-Projetos\Projetos\AgendamentoDeTarefas\AgendamentoDeTarefas\obj\Debug\n
 C:\Aulas-Projetos\Projetos\AgendamentoDeTarefas\AgendamentoDeTarefas\obj\Debug\net7.0\AgendamentoDeTarefas.pdb
 C:\Aulas-Projetos\Projetos\AgendamentoDeTarefas\AgendamentoDeTarefas\obj\Debug\net7.0\AgendamentoDeTarefas.genruntimeconfig.cache
 C:\Aulas-Projetos\Projetos\AgendamentoDeTarefas\AgendamentoDeTarefas\obj\Debug\net7.0\ref\AgendamentoDeTarefas.dll
+C:\Aulas-Projetos\Projetos\AgendamentoDeTarefas\AgendamentoDeTarefas\obj\Debug\net7.0\AgendamentoDeTarefas.sourcelink.json

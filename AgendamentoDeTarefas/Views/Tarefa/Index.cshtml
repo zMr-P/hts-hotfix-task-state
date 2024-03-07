@@ -2,26 +2,21 @@
     ViewData["Title"] = "Início";
 }
 <img class="PrincipalBackGround" src="~/imagens/PrincipalBackGround.jpg">
+<img />
+
 <div class="Titulo-Principal">
     <h3 class="display-4">HotFix Task State</h3>
     <h4 class="display-6">Bem vindo ao seu moderno agendador de tarefas</h4>
 </div>
-
-</img>
-
 <div class="container">
     <div class="BotaoObterTodos">
         <div class="align-content-center">
-            <button type="button" class="btn btn-primary">
-                <a asp-action="ObterTodos" style="color:white">Ver todas as tarefas</a>
-            </button>
+            <a class="btn btn-primary" role="button" asp-action="ObterTodos" style="color:white">Ver todas as tarefas</a>
         </div>
     </div>
     <div class="BotaoCriar">
         <div class="align-content-center">
-            <button type="button" class="btn btn-primary">
-                <a asp-action="CriarTarefa" style="color:white">Criar Nova Tarefa</a>
-            </button>
+            <a class="btn btn-primary" role="button" asp-action="CriarTarefa" style="color:white">Criar Nova Tarefa</a>
         </div>
     </div>
 </div>
