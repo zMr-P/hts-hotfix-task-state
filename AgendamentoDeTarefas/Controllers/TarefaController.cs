@@ -22,7 +22,7 @@ namespace AgendamentoDeTarefas.Controllers
 
         public IActionResult ObterTodos()
         {
-            var tarefas = _context.Tarefas.ToList();
+            var tarefas = _context.Tarefas.ToList().OrderByDescending(x => x.Status == 0);
             return View(tarefas);
         }
         public IActionResult CriarTarefa()

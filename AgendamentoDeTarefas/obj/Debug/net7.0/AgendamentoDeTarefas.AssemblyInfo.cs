@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgendamentoDeTarefas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ee8f68941288a1b5a3343803dad39999af1b614")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2709adfb242ec3ac4f6929df5793e810ac4dbb91")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgendamentoDeTarefas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgendamentoDeTarefas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

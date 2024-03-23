@@ -9,7 +9,7 @@
     <a asp-action="CriarTarefa">Criar nova Tarefa</a>
 </p>
 
-<table class="table">
+<table class="table" id="table-contatos">
     <thead>
         <tr>
             <th>
@@ -28,7 +28,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var item in Model) 
         {
             <tr>
                 <td>
