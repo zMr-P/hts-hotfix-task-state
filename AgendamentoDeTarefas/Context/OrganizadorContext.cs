@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using AgendamentoDeTarefas.Models.Entites;
+using AgendamentoDeTarefas.Entites;
 
 namespace AgendamentoDeTarefas.Context
 {
@@ -9,6 +9,7 @@ namespace AgendamentoDeTarefas.Context
         {
 
         }
-         public DbSet<Tarefa> Tarefas { get; set; }
+        public DbSet<MeuUsuario> MeusUsuarios { get; set; }
+        public DbSet<Tarefa> Tarefas { get; set; }
     }
 }

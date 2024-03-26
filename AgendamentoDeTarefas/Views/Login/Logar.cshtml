@@ -1,0 +1,38 @@
+﻿@model AgendamentoDeTarefas.Models.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+
+<div id="login">
+    <h3 class="text-center text-white pt-5">Seja bem vindo!!!</h3>
+    <div class="container">
+        <div id="login-row" class="row justify-content-center align-items-center">
+            <div id="login-column" class="col-md-6">
+                <div id="login-box" class="col-md-12">
+                    <form asp-action="Logar" id="login-form" class="form">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <h3 class="text-center text-info">Login</h3>
+                        <div class="form-group">
+                            <label asp-for="UserName" class="text-info">Usuário:</label><br>
+                            <input asp-for="UserName" id="username" class="form-control">
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Password" class="text-info">Senha:</label><br>
+                            <input asp-for="Password" id="password" class="form-control">
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="text-info"><span>Lembrar Usuário</span> <span><input id="remember-me" type="checkbox"></span></label><br />
+                            <input id="ButtonSubmit1" type="submit" name="submit" class="btn btn-info btn-md" value="Entrar">
+                        </div>
+                        <div id="register-link" class="text-right">
+                            <a asp-action="Registrar" class="text-info">Registrar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

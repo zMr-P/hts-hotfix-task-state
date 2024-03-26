@@ -1,49 +1,83 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
-.PrincipalBackGround {    
-    left:px;
+
+.PrincipalBackGround {
+    left: px;
     display: flex;
     hight: 70vh;
     width: 70vw;
     z-index: 0;
-   
-    align-items:center;
-  
+    align-items: center;
 }
-.Titulo-Principal{
-    align-items:end;
-    position:absolute;
-    
+
+.Titulo-Principal {
+    align-items: end;
+    position: absolute;
     top: 90px;
     z-index: 1;
 }
-.BotaoObterTodos{
-    display:flex;
-    position:absolute;
-    bottom:600px;
+
+.BotaoObterTodos {
+    display: flex;
+    position: absolute;
+    bottom: 600px;
 }
+
 .BotaoCriar {
-    display:flex;
-    position:absolute;
-    bottom:550px;
+    display: flex;
+    position: absolute;
+    bottom: 550px;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #17a2b8;
+    height: 100vh;
+}
+
+#login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+        padding: 20px;      
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+            margin-top: 10px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link2 {
+      text-align:end;
+      margin-top:-37px;
+}
+#login .container #login-row #login-column #login-box #login-form #ButtonSubmit1 {
+        margin-top: 5px;
+}
+#login .container #login-row #login-column #login-box{
+    
+}
+

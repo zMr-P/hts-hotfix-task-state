@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Aulas-Projetos\Projetos\AgendamentoDeTarefas\AgendamentoDeTarefas
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Login/Logar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9nYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Login/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Login/Sucesso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU3VjZXNzby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
