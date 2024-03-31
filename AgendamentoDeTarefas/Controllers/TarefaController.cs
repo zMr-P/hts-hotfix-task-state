@@ -4,8 +4,8 @@ using AgendamentoDeTarefas.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using System.Runtime.InteropServices;
 using System.Security.Claims;
+
 
 namespace AgendamentoDeTarefas.Controllers
 {
@@ -24,30 +24,39 @@ namespace AgendamentoDeTarefas.Controllers
         {
             return View();
         }
-    
-        public async Task<IActionResult> ObterTodos(MeuUsuario usuario)
-        {
-            var usuarioBanco = await _userManager.FindByIdAsync(usuario.Id);
-            var tarefas = _context.Tarefas.ToList();
-            tarefas.Find(x => x.IdUsuario == usuarioBanco.Id);
-            return View(tarefas);        
-        }
 
-        [HttpGet]
+        public async Task<IActionResult> ObterTodos()
+        {
+            var usuario = HttpContext.User.Identity;
+            if (usuario.IsAuthenticated)
+            {
+                var usuarioBanco = await _userManager.FindByNameAsync(usuario.Name);
+                var tarefas = _context.Tarefas.ToList().FindAll(
+                    x => x.IdUsuario == usuarioBanco.Id);
+
+                return View(tarefas);
+            }
+            return NotFound();
+        }
+   
         public async Task<IActionResult> CriarTarefa()
         {
-            return View();
+           if(ModelState.IsValid)
+            {
+                return View();
+            }
+            return NotFound();
         }
 
-
         [HttpPost]
-        public async Task<IActionResult> CriarTarefa(Tarefa tarefa, MeuUsuario usuario)
+        public async Task<IActionResult> CriarTarefa(Tarefa tarefa)
         {
-            if (ModelState.IsValid)
+            var usuario = HttpContext.User.Identity;
+            if (usuario.IsAuthenticated)
             {
-                var usuarioBanco = await _userManager.FindByIdAsync(usuario.Id);
+                var usuarioBanco = await _userManager.FindByNameAsync(usuario.Name);
                 tarefa.IdUsuario = usuarioBanco.Id;
-                
+
                 _context.Tarefas.Add(tarefa);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(ObterTodos));
@@ -57,7 +66,6 @@ namespace AgendamentoDeTarefas.Controllers
 
         public IActionResult EditarTarefa(int id)
         {
-
             var tarefa = _context.Tarefas.Find(id);
             if (tarefa == null)
             {

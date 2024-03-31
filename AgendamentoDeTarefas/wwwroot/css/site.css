@@ -63,21 +63,35 @@ body {
     border: 1px solid #9C9C9C;
     background-color: #EAEAEA;
 }
-#login .container #login-row #login-column #login-box #login-form {
-        padding: 20px;      
-}
 
-#login .container #login-row #login-column #login-box #login-form #register-link {
+    #login .container #login-row #login-column #login-box #login-form {
+        padding: 20px;
+    }
+
+        #login .container #login-row #login-column #login-box #login-form #register-link {
             margin-top: 10px;
-}
-#login .container #login-row #login-column #login-box #login-form #register-link2 {
-      text-align:end;
-      margin-top:-37px;
-}
-#login .container #login-row #login-column #login-box #login-form #ButtonSubmit1 {
-        margin-top: 5px;
-}
-#login .container #login-row #login-column #login-box{
-    
-}
+        }
 
+        #login .container #login-row #login-column #login-box #login-form #register-link2 {
+            text-align: end;
+            margin-top: -37px;
+        }
+
+        #login .container #login-row #login-column #login-box #login-form #botao-registrar {
+            margin-top:-5px;
+        }
+
+        #login .container #login-row #login-column #login-box #login-form #ButtonSubmit1 {
+            margin-top: 5px;
+        }
+
+        #login .container #login-row #login-column #login-box #login-form #botao-span {
+            position: absolute;
+            margin-left: 155px;
+        }
+
+        #login .container #login-row #login-column #login-box #login-form #botao-span-principal {
+            position: absolute;
+            margin-top: 165px;
+            margin-left: 155px;
+        }

@@ -11,17 +11,17 @@
             <div id="login-column" class="col-md-6">
                 <div id="login-box" class="col-md-12">
                     <form asp-action="Logar" id="login-form" class="form">
-                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div id="botao-span-principal" asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <h3 class="text-center text-info">Login</h3>
                         <div class="form-group">
                             <label asp-for="UserName" class="text-info">Usuário:</label><br>
                             <input asp-for="UserName" id="username" class="form-control">
-                            <span asp-validation-for="UserName" class="text-danger"></span>
+                            <span id="botao-span" asp-validation-for="UserName" class="text-danger"></span>
                         </div>
                         <div class="form-group">
                             <label asp-for="Password" class="text-info">Senha:</label><br>
                             <input asp-for="Password" id="password" class="form-control">
-                            <span asp-validation-for="Password" class="text-danger"></span>
+                            <span id="botao-span" asp-validation-for="Password" class="text-danger"></span>
                         </div>
                         <div class="form-group">
                             <label class="text-info"><span>Lembrar Usuário</span> <span><input id="remember-me" type="checkbox"></span></label><br />

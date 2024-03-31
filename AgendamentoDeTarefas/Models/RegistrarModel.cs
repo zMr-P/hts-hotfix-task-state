@@ -5,11 +5,11 @@ namespace AgendamentoDeTarefas.Models
 {
     public class RegistrarModel
     {
-        [Required(ErrorMessage="O campo {0} é obrigatório")]
+        [Required(ErrorMessage="O campo Usuário é obrigatório")]
         public string UserName { get; set; }
 
-        [Required(ErrorMessage = "O campo {0} é obrigatório")]
-        [StringLength(50,ErrorMessage = "O campo {0} deve ter entre {2} e {1} caracteres", MinimumLength = 8)]
+        [Required(ErrorMessage = "O campo senha é obrigatório")]
+        [StringLength(50,ErrorMessage = "O campo senha deve ter {2} caracteres e caracter especial.", MinimumLength = 8)]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
