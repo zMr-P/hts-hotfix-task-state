@@ -3,13 +3,14 @@
 
 // Write your JavaScript code.
 
-let table = new DataTable('#table-contatos',
+var table = new DataTable('#table-contatos',
     {
         "ordering": true,
         "paging": true,
         "searching": true,
         "oLanguage":
         {
+
             "sEmptyTable": "Nenhum registro encontrado na tabela",
             "sInfo": "Mostrar _START_ até _END_ de _TOTAL_ registros",
             "sInfoEmpty": "Mostrar 0 até 0 de 0 Registros",
@@ -33,3 +34,12 @@ let table = new DataTable('#table-contatos',
             }
         }
     });
+$('#table-contatos').on('click', 'tr', function () {
+    if ($(this).hasClass('selected')) {
+        $(this).removeClass('selected');
+    }
+    else {
+        table.$('tr.selected').removeClass('selected');
+        $(this).addClass('selected');
+    }
+});

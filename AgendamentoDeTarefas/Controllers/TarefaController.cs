@@ -32,7 +32,9 @@ namespace AgendamentoDeTarefas.Controllers
             {
                 var usuarioBanco = await _userManager.FindByNameAsync(usuario.Name);
                 var tarefas = _context.Tarefas.ToList().FindAll(
-                    x => x.IdUsuario == usuarioBanco.Id);
+                    x => x.IdUsuario == usuarioBanco.Id).OrderByDescending(
+                    x=>x.Status == StatusTarefa.Pendente);
+                
 
                 return View(tarefas);
             }
@@ -56,6 +58,7 @@ namespace AgendamentoDeTarefas.Controllers
             {
                 var usuarioBanco = await _userManager.FindByNameAsync(usuario.Name);
                 tarefa.IdUsuario = usuarioBanco.Id;
+                tarefa.Status = 0;
 
                 _context.Tarefas.Add(tarefa);
                 _context.SaveChanges();

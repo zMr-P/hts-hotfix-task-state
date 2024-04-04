@@ -75,6 +75,13 @@ namespace AgendamentoDeTarefas.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public async Task<IActionResult> LogOut()
+        {
+            await HttpContext.SignOutAsync("cookies");
+            return RedirectToAction(nameof(Logar));
+        }
     }
 
 }

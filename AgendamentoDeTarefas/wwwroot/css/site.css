@@ -12,6 +12,24 @@ html {
     box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+.paytone-one-regular {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#dt-search-0{
+    color:white;
+}
+#dt-length-0 {
+    color: white;
+    background-color: rgb(23, 162, 184);
+    
+}
+.pb-3{
+    color:white;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -22,9 +40,7 @@ body {
 }
 
 .PrincipalBackGround {
-    left: px;
     display: flex;
-    hight: 70vh;
     width: 70vw;
     z-index: 0;
     align-items: center;
@@ -95,3 +111,12 @@ body {
             margin-top: 165px;
             margin-left: 155px;
         }
+
+#LogOut{
+    position:absolute;
+    margin-left:1550px;
+}
+
+#TituloObterTodos{
+    text-align:center;
+}

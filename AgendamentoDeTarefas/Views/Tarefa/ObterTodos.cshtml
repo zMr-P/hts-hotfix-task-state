@@ -1,15 +1,19 @@
 ﻿@model IEnumerable<AgendamentoDeTarefas.Entites.Tarefa>
 @{
     ViewData["Title"] = "Todas as tarefas";
-    
+
 }
-<h2>Minhas Tarefas</h2>
+<h2 style="color:white;" id="TituloObterTodos">Minhas Tarefas</h2>
+
+<br />
+<br />
+<br />
 
 <p>
-    <a asp-action="CriarTarefa">Criar nova Tarefa</a>
+    <a asp-action="CriarTarefa" class="btn btn-primary">Criar nova Tarefa</a>
 </p>
 
-<table class="table" id="table-contatos">
+<table class="table" id="table-contatos" style="color:white;">
     <thead>
         <tr>
             <th>
@@ -28,7 +32,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model) 
+        @foreach (var item in Model)
         {
             <tr>
                 <td>
@@ -44,8 +48,8 @@
                     @Html.DisplayFor(model => item.Status)
                 </td>
                 <td>
-                    <a asp-action="EditarTarefa" asp-route-id="@item.Id">Editar</a>
-                    <a asp-action="Detalhes" asp-route-id="@item.Id">Detalhes</a>
+                    <a asp-action="EditarTarefa" asp-route-id="@item.Id" style="color:yellow;">Editar</a>
+                    <a asp-action="Detalhes" asp-route-id="@item.Id" style="color:white;">Detalhes</a>
                     <a asp-action="Deletar" asp-route-id="@item.Id" class="btn-outline-danger">Deletar</a>
                 </td>
             </tr>

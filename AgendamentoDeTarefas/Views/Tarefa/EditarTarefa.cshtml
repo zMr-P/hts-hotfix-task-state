@@ -20,23 +20,27 @@
                 <label asp-for="Data" class="control-label">Data</label>
                 <input asp-for="Data" class="form-control" />
             </div>
-            <br />
-            <div>
-                <label asp-for="Status" class="my-1 mr-2" for="inlineFormCustomSelectPref">Status</label>
-                <select asp-for="Status" class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                    <option selected>Escolha</option>
-                    <option value="0">Pendente</option>
-                    <option value="1">Finalizado</option>
-                </select>
+            <br />       
+            <div class="form-check">
+                <input asp-for="Status" class="form-check-input" type="radio"  value="0" checked />
+                <label asp-for="Status" class="form-check-label">
+                    Pendente
+                </label>
+            </div>
+            <div class="form-check">
+                <input asp-for="Status" class="form-check-input" type="radio" value="1"/>
+                <label asp-for="Status" class="form-check-label">
+                    Finalizado
+                </label>
             </div>
             <br />
             <div class="form-group">
-                <input type="submit" value="Editar" class="btn btn-primary" />
+                <input type="submit" value="Concluir" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 <hr />
 <div>
-    <a asp-action="ObterTodos">Voltar</a>
+    <a asp-action="ObterTodos" style="color:white;">Voltar</a>
 </div>
