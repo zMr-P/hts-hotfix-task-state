@@ -46,16 +46,14 @@
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
-        @if (User.Identity.IsAuthenticated)
-        {
+    @if (User.Identity.IsAuthenticated)
+    {
+        <footer class="border-top footer text-muted">
             <div class="container" style="color:white;">
                 &copy; 2024 - AgendamentoDeTarefas - <a asp-area="" asp-controller="Tarefa" asp-action="Index" style="color:white;">Início</a>
             </div>
-        }
-    </footer>
-
+        </footer>
+    }
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="https://cdn.datatables.net/v/dt/dt-2.0.2/datatables.min.js"></script>

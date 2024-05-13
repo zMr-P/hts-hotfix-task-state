@@ -4,7 +4,6 @@ using AgendamentoDeTarefas.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using System.Security.Claims;
 
 
 namespace AgendamentoDeTarefas.Controllers
@@ -33,9 +32,8 @@ namespace AgendamentoDeTarefas.Controllers
                 var usuarioBanco = await _userManager.FindByNameAsync(usuario.Name);
                 var tarefas = _context.Tarefas.ToList().FindAll(
                     x => x.IdUsuario == usuarioBanco.Id).OrderByDescending(
-                    x=>x.Status == StatusTarefa.Pendente);
+                    x=> x.Status == StatusTarefa.Pendente);
                 
-
                 return View(tarefas);
             }
             return NotFound();

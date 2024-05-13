@@ -10,6 +10,7 @@ namespace AgendamentoDeTarefas.Models
 
         [Required(ErrorMessage = "O campo senha é obrigatório")]
         [StringLength(50,ErrorMessage = "O campo senha deve ter {2} caracteres e caracter especial.", MinimumLength = 8)]
+        [RegularExpression(@"^(?=.*[-!@#$%^&*()_+{}\[\]:;<>,.?~]).*$", ErrorMessage = "A senha deve conter pelo menos um caractere especial.")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 

@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HotfixTaskState
+build_property.RootNamespace = HotfixTaskState
+build_property.ProjectDir = C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\AgendamentoDeTarefas\AgendamentoDeTarefas\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\AgendamentoDeTarefas\AgendamentoDeTarefas
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Login/Logar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9nYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Login/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Login/Sucesso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU3VjZXNzby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Tarefa/CriarTarefa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhXENyaWFyVGFyZWZhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Tarefa/Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhXERlbGV0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Tarefa/Detalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhXERldGFsaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Tarefa/EditarTarefa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhXEVkaXRhclRhcmVmYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Tarefa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Tarefa/ObterTodos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhXE9idGVyVG9kb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paulo/OneDrive/Documentos/Aulas-Projetos/Projetos/AgendamentoDeTarefas/AgendamentoDeTarefas/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n5lq6jm82b

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\AgendamentoDeTarefas.csproj": {}
+    "C:\\Users\\paulo\\OneDrive\\Documentos\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\AgendamentoDeTarefas.csproj": {}
   },
   "projects": {
-    "C:\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\AgendamentoDeTarefas.csproj": {
+    "C:\\Users\\paulo\\OneDrive\\Documentos\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\AgendamentoDeTarefas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\AgendamentoDeTarefas.csproj",
+        "projectUniqueName": "C:\\Users\\paulo\\OneDrive\\Documentos\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\AgendamentoDeTarefas.csproj",
         "projectName": "AgendamentoDeTarefas",
-        "projectPath": "C:\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\AgendamentoDeTarefas.csproj",
+        "projectPath": "C:\\Users\\paulo\\OneDrive\\Documentos\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\AgendamentoDeTarefas.csproj",
         "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\obj\\",
+        "outputPath": "C:\\Users\\paulo\\OneDrive\\Documentos\\Aulas-Projetos\\Projetos\\AgendamentoDeTarefas\\AgendamentoDeTarefas\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -75,19 +85,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.16, 7.0.16]"
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
+              "version": "[7.0.18, 7.0.18]"
             }
           ],
           "frameworkReferences": {
@@ -98,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

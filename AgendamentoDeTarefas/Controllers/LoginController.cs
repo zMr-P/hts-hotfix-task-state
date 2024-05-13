@@ -35,7 +35,7 @@ namespace AgendamentoDeTarefas.Controllers
 
                     await HttpContext.SignInAsync("cookies", new ClaimsPrincipal(identity));
 
-                    return RedirectToAction("Index","Tarefa");
+                    return RedirectToAction("Index", "Tarefa");
                 }
                 ModelState.AddModelError("", "Usuário ou senha invalida");
             }
